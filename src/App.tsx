@@ -18,7 +18,7 @@ function App() {
         <div>
           {isOpen && (
             <MDXEditor
-              markdown="# Hello world"
+              markdown="Hello world"
               plugins={[
                 toolbarPlugin({
                   toolbarContents: () => (
